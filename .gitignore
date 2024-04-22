@@ -1,0 +1,59 @@
+#Autosave files
+*~
+
+#build
+[Oo]bj/
+[Bb]in/
+packages/
+TestResults/
+DerivedData/
+xcuserdata
+
+# globs
+Makefile.in
+*.DS_Store
+*.sln.cache
+*.suo
+*.cache
+*.pidb
+*.userprefs
+*.usertasks
+config.log
+config.make
+config.status
+aclocal.m4
+install-sh
+autom4te.cache/
+*.user
+*.tar.gz
+tarballs/
+test-results/
+Thumbs.db
+*.bak
+*.lock.*
+UpgradeLog*.htm
+*.nuget.targets
+*.sln.DotSettings
+*main.i386.cache.*
+*/Resource.Designer.cs
+.vs/
+#Mac bundle stuff
+*.dmg
+*.app
+
+#resharper
+*_Resharper.*
+*.Resharper
+
+#dotCover
+*.dotCover
+
+._Musicnotes.Forms.iOS.sln
+
+# Visual Studio 2015 cache/options directory
+.vs/
+
+#Abs Folders
+/_backups/
+Resource.Designer.cs
+Package.resolved
