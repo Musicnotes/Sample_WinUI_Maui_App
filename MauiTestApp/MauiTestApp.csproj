@@ -70,34 +70,4 @@
 		<PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="8.0.0" />
 	</ItemGroup>
 
-	<ItemGroup>
-    <None Remove="Code\**\*.xaml" />
-    <None Remove="Platforms\Windows\Code\**\*.xaml" />
-    <None Remove="App.xaml" />
-    <None Remove="AppShell.xaml" />
-    <None Remove="MainPage.xaml" />
-    <None Remove="Platforms\Windows\App.xaml" />
-
-    <MauiXaml Include="Code\**\*.xaml" />
-    <MauiXaml Include="Resources\**\*.xaml" />
-	
-    <MauiXaml Include="App.xaml" />
-    <MauiXaml Include="AppShell.xaml" />
-    <MauiXaml Include="MainPage.xaml" />
-
-    <Page Include="Platforms\Windows\Code\**\*.xaml" />
-    <AppxManifest Include="Platforms\Windows\Package.appxmanifest" />
-	
-    <Page Update="Platforms\Windows\App.xaml">
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-
-	</ItemGroup>
-
-	<ItemGroup>
-	  <MauiXaml Update="Code\CustomPage.xaml">
-	    <Generator>MSBuild:Compile</Generator>
-	  </MauiXaml>
-	</ItemGroup>
-
 </Project>
